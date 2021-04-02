@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/genshin-impact/static/css/main.e5164d02.chunk.css",
-    "main.js": "/genshin-impact/static/js/main.61f4dc70.chunk.js",
-    "main.js.map": "/genshin-impact/static/js/main.61f4dc70.chunk.js.map",
-    "runtime-main.js": "/genshin-impact/static/js/runtime-main.81a3a160.js",
-    "runtime-main.js.map": "/genshin-impact/static/js/runtime-main.81a3a160.js.map",
-    "static/js/2.208ee245.chunk.js": "/genshin-impact/static/js/2.208ee245.chunk.js",
-    "static/js/2.208ee245.chunk.js.map": "/genshin-impact/static/js/2.208ee245.chunk.js.map",
-    "static/js/3.f574ade7.chunk.js": "/genshin-impact/static/js/3.f574ade7.chunk.js",
-    "static/js/3.f574ade7.chunk.js.map": "/genshin-impact/static/js/3.f574ade7.chunk.js.map",
+    "main.css": "/genshin-impact/static/css/main.599fd497.chunk.css",
+    "main.js": "/genshin-impact/static/js/main.8071b254.chunk.js",
+    "main.js.map": "/genshin-impact/static/js/main.8071b254.chunk.js.map",
+    "runtime-main.js": "/genshin-impact/static/js/runtime-main.f680f253.js",
+    "runtime-main.js.map": "/genshin-impact/static/js/runtime-main.f680f253.js.map",
+    "static/js/2.38051f6f.chunk.js": "/genshin-impact/static/js/2.38051f6f.chunk.js",
+    "static/js/2.38051f6f.chunk.js.map": "/genshin-impact/static/js/2.38051f6f.chunk.js.map",
+    "static/js/3.98748ce5.chunk.js": "/genshin-impact/static/js/3.98748ce5.chunk.js",
+    "static/js/3.98748ce5.chunk.js.map": "/genshin-impact/static/js/3.98748ce5.chunk.js.map",
     "index.html": "/genshin-impact/index.html",
-    "static/css/main.e5164d02.chunk.css.map": "/genshin-impact/static/css/main.e5164d02.chunk.css.map",
-    "static/js/2.208ee245.chunk.js.LICENSE.txt": "/genshin-impact/static/js/2.208ee245.chunk.js.LICENSE.txt"
+    "static/css/main.599fd497.chunk.css.map": "/genshin-impact/static/css/main.599fd497.chunk.css.map",
+    "static/js/2.38051f6f.chunk.js.LICENSE.txt": "/genshin-impact/static/js/2.38051f6f.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.81a3a160.js",
-    "static/js/2.208ee245.chunk.js",
-    "static/css/main.e5164d02.chunk.css",
-    "static/js/main.61f4dc70.chunk.js"
+    "static/js/runtime-main.f680f253.js",
+    "static/js/2.38051f6f.chunk.js",
+    "static/css/main.599fd497.chunk.css",
+    "static/js/main.8071b254.chunk.js"
   ]
 }
