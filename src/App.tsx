@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="flex">
       <Sidebar />
-      <main className="w-full p-3 bg-gray-100 h-screen">
+      <main className="w-full p-3 bg-gray-100 h-full">
         <AppRouter/>
       </main>
     </div>

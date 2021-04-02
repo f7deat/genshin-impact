@@ -30,6 +30,7 @@ const Sidebar = () => {
       <div className="p-3">
         <MenuItem name="Home" icon="https://genshin.honeyhunterworld.com/img/icons/wish_35.png"/>
         <MenuItem name="Character" icon="https://genshin.honeyhunterworld.com/img/icons/char_35.png"/>
+        <MenuItem name="Character" icon="https://genshin.honeyhunterworld.com/img/icons/weapons_35.png"/>
       </div>
     </div>
   );

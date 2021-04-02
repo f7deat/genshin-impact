@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import Gateway from "../gateway";
 
 const News = () => {
@@ -33,7 +34,9 @@ const News = () => {
                   />
                 </div>
                 <div className="p-3">
-                  <div className="font-bold text-gray-700 flex-1 hover:text-red-500">{x.title}</div>
+                  <div className="font-bold text-gray-700 flex-1 hover:text-red-500">
+                    <Link to={"/news/details/" + x.contentId}>{x.title}</Link>
+                  </div>
                   <div className="text-gray-400 text-sm">{x.start_time}</div>
                 </div>
               </div>
