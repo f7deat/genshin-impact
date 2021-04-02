@@ -1,6 +1,9 @@
+import { Link } from "react-router-dom"
+
 interface IMenuItemProps {
   name: string;
   icon: string;
+  url: string;
 }
 
 const MenuItem = (menuItem: IMenuItemProps) => {
@@ -12,7 +15,7 @@ const MenuItem = (menuItem: IMenuItemProps) => {
           alt={menuItem.name}
           className="mr-2 h-5 w-5"
         />
-        {menuItem.name}
+        <Link to={menuItem.url}>{menuItem.name}</Link>
       </button>
     </div>
   );
@@ -28,9 +31,15 @@ const Sidebar = () => {
         />
       </div>
       <div className="p-3">
-        <MenuItem name="Home" icon="https://genshin.honeyhunterworld.com/img/icons/wish_35.png"/>
-        <MenuItem name="Character" icon="https://genshin.honeyhunterworld.com/img/icons/char_35.png"/>
-        <MenuItem name="Character" icon="https://genshin.honeyhunterworld.com/img/icons/weapons_35.png"/>
+        <MenuItem
+          name="Home"
+          icon="https://genshin.honeyhunterworld.com/img/icons/wish_35.png"
+          url="/"
+        />
+        <MenuItem name="Character" icon="https://genshin.honeyhunterworld.com/img/icons/char_35.png" 
+          url="/"/>
+        <MenuItem name="Character" icon="https://genshin.honeyhunterworld.com/img/icons/weapons_35.png"
+          url="/weapons" />
       </div>
     </div>
   );

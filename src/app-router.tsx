@@ -10,6 +10,9 @@ const AppRouter = () => {
     <Route path="/news/details/:id">
       <NewsDetails />
     </Route>
+      <Route path="/weapons">
+        <Weapons />
+      </Route>
       <Route path="/">
         <News />
       </Route>
