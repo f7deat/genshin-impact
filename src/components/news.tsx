@@ -33,7 +33,7 @@ const News = () => {
                   />
                 </div>
                 <div className="p-3">
-                  <div className="font-bold text-gray-700 flex-1">{x.title}</div>
+                  <div className="font-bold text-gray-700 flex-1 hover:text-red-500">{x.title}</div>
                   <div className="text-gray-400 text-sm">{x.start_time}</div>
                 </div>
               </div>

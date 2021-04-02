@@ -1,4 +1,4 @@
-import News from "./components/news";
+import AppRouter from "./app-router";
 import Sidebar from "./layout/sidebar";
 
 function App() {
@@ -6,7 +6,7 @@ function App() {
     <div className="flex">
       <Sidebar />
       <main className="w-full p-3 bg-gray-100 h-screen">
-        <News />
+        <AppRouter/>
       </main>
     </div>
   );
