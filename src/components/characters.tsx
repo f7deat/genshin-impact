@@ -1,5 +1,6 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 import Gateway from "../gateway";
 
 const Characters = () => {
@@ -43,13 +44,18 @@ const Characters = () => {
           <div
             className="bg-white font-medium shadow m-1 px-4 py-2 hover:shadow-lg cursor-pointer"
             key={character}
+            style={{ maxWidth: 138 }}
           >
-            <img
-              src={`${Gateway.CHARACTERS}/${character}/icon.png`}
-              alt={character}
-              className="mb-2"
-            />
-            <div className="text-center">{character}</div>
+            <Link to={`/characters/${character}`}>
+              <img
+                src={`${Gateway.CHARACTERS}/${character}/icon.png`}
+                alt={character}
+                className="mb-2"
+              />
+            </Link>
+            <div className="text-center truncate">
+              <Link to={`/characters/${character}`}>{character}</Link>
+            </div>
           </div>
         ))
       )}

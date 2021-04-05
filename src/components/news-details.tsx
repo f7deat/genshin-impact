@@ -17,7 +17,7 @@ const NewsDetails = () => {
         axios.get(Gateway.NEW_DETAIL + 'contentId=' + id + '&around=1').then((response) => {
             setNewsDetail(response.data.data);
         });
-    }, []);
+    }, [id]);
 
     return (
         <div className="flex">
