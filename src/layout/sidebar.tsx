@@ -36,15 +36,9 @@ const Sidebar = () => {
           icon="https://genshin.honeyhunterworld.com/img/icons/wish_35.png"
           url="/"
         />
-<<<<<<< HEAD
-        <MenuItem name="Character" icon="https://genshin.honeyhunterworld.com/img/icons/char_35.png" 
-          url="/"/>
-        <MenuItem name="Weapon" icon="https://genshin.honeyhunterworld.com/img/icons/weapons_35.png"
-=======
         <MenuItem name="Characters" icon="https://genshin.honeyhunterworld.com/img/icons/char_35.png" 
           url="/characters"/>
-        <MenuItem name="Character" icon="https://genshin.honeyhunterworld.com/img/icons/weapons_35.png"
->>>>>>> 2e90dc48b0e0059f3e50e6663886004014cbc762
+        <MenuItem name="Weapon" icon="https://genshin.honeyhunterworld.com/img/icons/weapons_35.png"
           url="/weapons" />
       </div>
     </div>
