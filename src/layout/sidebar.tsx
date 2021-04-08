@@ -9,7 +9,7 @@ interface IMenuItemProps {
 const MenuItem = (menuItem: IMenuItemProps) => {
   return (
     <div className="mb-1">
-      <button className="py-2 px-4 hover:bg-red-500 rounded-lg font-bold w-full hover:text-white text-left flex items-center text-gray-800">
+      <button className="py-2 px-4 hover:bg-red-500 rounded-lg font-bold w-full hover:text-white text-left flex items-center text-gray-800 transition-all duration-300">
         <img
           src={menuItem.icon}
           alt={menuItem.name}
@@ -36,9 +36,15 @@ const Sidebar = () => {
           icon="https://genshin.honeyhunterworld.com/img/icons/wish_35.png"
           url="/"
         />
+<<<<<<< HEAD
         <MenuItem name="Character" icon="https://genshin.honeyhunterworld.com/img/icons/char_35.png" 
           url="/"/>
         <MenuItem name="Weapon" icon="https://genshin.honeyhunterworld.com/img/icons/weapons_35.png"
+=======
+        <MenuItem name="Characters" icon="https://genshin.honeyhunterworld.com/img/icons/char_35.png" 
+          url="/characters"/>
+        <MenuItem name="Character" icon="https://genshin.honeyhunterworld.com/img/icons/weapons_35.png"
+>>>>>>> 2e90dc48b0e0059f3e50e6663886004014cbc762
           url="/weapons" />
       </div>
     </div>
