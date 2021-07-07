@@ -5,7 +5,7 @@ function App() {
   return (
     <div className="flex">
       <Sidebar />
-      <main className="w-full p-4 bg-gray-100 h-full min-h-screen">
+      <main className="p-4 bg-gray-100 h-full min-h-screen" style={{width: 'calc(100% - 250px)'}}>
         <AppRouter/>
       </main>
     </div>

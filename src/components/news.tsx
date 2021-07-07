@@ -34,7 +34,7 @@ const News = () => {
                           .url
                       }
                       alt="haha"
-                      className="rounded-t-2xl hover:opacity-50 transition-all duration-500"
+                      className="rounded-t-2xl hover:opacity-50 transition-all duration-500 h-48 object-fit-cover"
                     />
                   </Link>
                 </div>

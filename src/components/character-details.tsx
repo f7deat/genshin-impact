@@ -30,25 +30,29 @@ const CharacterDetails = () => {
   }, [id]);
 
   return (
-    <div className="p-4 bg-white md:flex">
-      <div className="md:w-3/4">
-        <div className="flex items-center">
-          <div className="mr-4">
-            <Hydro color="#02e7ff" size={60} />
-          </div>
-          <div>
-            <div className="font-bold text-xl mb-2 text-gray-800">{character?.name}</div>
-            <div className="flex">
-              <Rarity rarity={character?.rarity} />
+    <div className="md:flex md:-px-2">
+      <div className="md:w-3/4 px-2">
+        <div className="bg-white rounded p-4">
+          <div className="flex items-center">
+            <div className="mr-4">
+              <Hydro color="#02e7ff" size={60} />
+            </div>
+            <div>
+              <div className="font-bold text-xl mb-2 text-gray-800">{character?.name}</div>
+              <div className="flex">
+                <Rarity rarity={character?.rarity} />
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div className="md:w-1/4">
-        <img
-          src={`${Gateway.CHARACTERS}/${id}/portrait.png`}
-          alt={character?.name}
-        />
+      <div className="md:w-1/4 px-2">
+        <div className="bg-white rounded p-4">
+          <img
+            src={`${Gateway.CHARACTERS}/${id}/portrait.png`}
+            alt={character?.name}
+          />
+        </div>
       </div>
     </div>
   );
