@@ -22,9 +22,9 @@ const NewsDetails = () => {
     return (
         <div className="flex">
             <div className="w-3/4">
-                <div className="py-10 px-20 bg-white shadow-lg rounded">
-                    <div className="font-bold text-gray-800 mb-2 text-3xl">{newsDetail?.title}</div>
-                    <div className="text-gray-500 mb-5 text-sm">{newsDetail?.intro}</div>
+                <div className="py-10 px-20 shadow-lg rounded">
+                    <div className="font-bold mb-2 text-3xl">{newsDetail?.title}</div>
+                    <div className=" mb-5 text-sm">{newsDetail?.intro}</div>
                     <div className="post">
                         <div dangerouslySetInnerHTML={{ __html: newsDetail?.content }} />
                     </div>

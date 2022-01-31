@@ -17,14 +17,13 @@ const News = () => {
 
   return (
     <div>
-      <div className="text-xl font-bold p-3 text-gray-800">
-        News{" "}
-        <span className="text-gray-400 font-medium text-sm">({total})</span>
+      <div className="text-xl font-bold p-3">
+        <span className="mr-1">Tin tức</span><span className="text-gray-400 font-medium text-sm">({total})</span>
       </div>
-      <div className="flex -px-3">
+      <div className="flex gap-4">
         {news &&
           news.map((x: any) => (
-            <div key={x.contentId} className="px-3 w-1/5">
+            <div key={x.contentId} className="w-1/4">
               <div className="shadow hover:shadow-lg rounded-2xl h-full bg-white">
                 <div className="bg-gray-900 rounded-t-2xl">
                   <Link to={"/news/details/" + x.contentId}>
@@ -34,7 +33,7 @@ const News = () => {
                           .url
                       }
                       alt="haha"
-                      className="rounded-t-2xl hover:opacity-50 transition-all duration-500 h-48 object-fit-cover"
+                      className="rounded-t-2xl hover:opacity-50 transition-all duration-500 h-48 object-fit-cover w-full"
                     />
                   </Link>
                 </div>
@@ -48,6 +47,7 @@ const News = () => {
             </div>
           ))}
       </div>
+      <div className="divide"></div>
     </div>
   );
 };
